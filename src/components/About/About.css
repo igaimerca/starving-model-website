@@ -1,0 +1,13 @@
+.about-wrapper {
+    margin: auto;
+    width: 65%;
+    margin: 9rem auto;
+    border-radius: 6px;
+    height: auto;
+    background-image: url(/images/about_bg.png);
+    background-size: cover;
+    padding: 1rem;
+}
+.about-wrapper img {
+    height: 220px;
+}

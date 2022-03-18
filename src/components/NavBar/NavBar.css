@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    width: 90%;
+    background: transparent;
+    margin: auto;
+    padding-top: 1.2rem;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.nav-links, .nav-social-links {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar li {
+    margin: 0 1rem;
+    cursor: pointer;
+    font-size: small;
+}
+.nav-social-links img {
+    width: 16px;
+    height: 15px;
+}
+.nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-text {
+    position: absolute;
+    top: 47%;
+    left: 5%;
+}
+.banner-text h2 {
+    text-shadow: 0px 0px 4px #121111;
+}
+.banner-text .sub-title {
+    text-shadow: 0px 0px 4px #121111;
+    font-weight: bolder;
+    font-size: xxx-large;
+}
