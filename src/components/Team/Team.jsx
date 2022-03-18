@@ -10,7 +10,7 @@ function Team() {
             <Person name="Dan Smith" image="/images/team/Dan.png" position="Lead Artist" />
             <Person name="Joe Brown" image="/images/team/Joe.png" position="Artist" />
             <Person name="James David" image="/images/team/James.png" position="Project Coordinator" />
-            <Person name="Joshua Jack" image="/images/team/James.png" position="Lead Developer" />
+            <Person name="Joshua Jack" image="/images/team/Jack.png" position="Lead Developer" />
         </div>
     </div>
   )
