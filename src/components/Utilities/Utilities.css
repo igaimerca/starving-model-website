@@ -1,0 +1,53 @@
+.utilities-container {
+    height: auto;
+    margin-top: 19rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.utilities-img {
+    height: auto;
+    width: 70%;
+    pointer-events: none;
+}
+.utilities-header {
+    text-align: center;
+    position: absolute;
+    top: 15%;
+}
+.points {
+    background-image: url(/images/points_rect.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 107px;
+    width: 215px;
+    transform: scale(.6);
+    display: flex;
+    padding: 14px;
+    align-items: flex-start;
+    justify-content: unset;
+    flex-direction: column;
+    position: absolute;
+}
+.points img {
+    width: 120px;
+}
+.points.one {
+    left: 28.4%;
+    top: 42.7%;
+}
+.points.two {
+    right: 31.4%;
+    top: 33.5%;
+}
+.points.three {
+    left: 20.7%;
+    bottom: 16.7%;
+}
+.points.four {
+    right: 21.7%;
+    bottom: 18.1%;
+}

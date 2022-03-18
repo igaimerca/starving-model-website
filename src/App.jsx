@@ -3,6 +3,8 @@ import NavBar from './components/NavBar/NavBar';
 import "./App.css"
 import About from './components/About/About';
 import Team from './components/Team/Team';
+import Utilities from './components/Utilities/Utilities';
+import Roadmap from './components/Roadmap/Roadmap';
 
 function App() {
     const [count, setCount] = useState(0);
@@ -18,6 +20,8 @@ function App() {
                 </div>
             </header>
             <About />
+            <Roadmap />
+            <Utilities />
             <Team />
         </div>
     )

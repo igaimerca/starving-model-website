@@ -1,0 +1,39 @@
+.roadmap h3 {
+    text-align: center;
+}
+.roadmap .torch {
+    height: 442px;
+    pointer-events: none;
+}
+.roadmap-card {
+    position: relative;
+}
+.roadmap-details {
+    color: #000000;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+}
+.roadmap-details.one {
+    top: 69%;
+    left: 49px;
+}
+.roadmap-details.two {
+    top: 64%;
+    left: 90px;
+}
+.roadmap-details.three {
+    top: 69%;
+    left: 49px;
+}
+.roadmap-details small{
+    text-align: center;
+}
+.roadmap-flex {
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
