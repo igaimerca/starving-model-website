@@ -9,9 +9,9 @@ function NavBar() {
                     <li>Project</li>
                     <li>Art</li>
                     <li>Charities</li>
-                    <li>Utilities</li>
-                    <li>Roadmap</li>
-                    <li>Team</li>
+                    <li onClick={() => window.location = '#utilities'}>Utilities</li>
+                    <li onClick={() => window.location = "#roadmap"}>Roadmap</li>
+                    <li onClick={() => window.location = '#team'} >Team</li>
                 </ul>
                 <ul className="nav-social-links">
                     <li><img src="/images/social/twitter.svg" alt="" /></li>
