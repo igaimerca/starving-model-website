@@ -26,11 +26,28 @@
 }
 
 .content {
+  position: relative;
   padding: 4em 3rem 6em 3em;
   background-color: rgb(170, 170, 170);
   color: #282253;
   border-radius: 2em;
   text-align: center;
+}
+
+.active .content::after{
+    text-align: center;
+    position: absolute;
+    content: "";
+    bottom: -25px;
+    left: -10%;
+    right: 0;
+    z-index: -1;
+    height: 20%;
+    width: 120%;
+    transform: scale(0.9) translateZ(0);
+    filter: blur(15px);
+    background-image: radial-gradient(rgb(186 182 25), rgb(195 195 118));
+    border-radius: 50%;
 }
 
 .active .content {

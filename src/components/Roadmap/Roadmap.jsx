@@ -11,7 +11,7 @@ function Roadmap() {
                 <div className="container">
                     <div className={`map_holder ${active === "first" ? 'active' : ""}`} onMouseEnter={() => setActive('first')}>
                         <div className="triangle">
-                            <img src={`/images/${active === "first" ? 'torch_on.PNG': 'torch_off.PNG'}`} style={{ width: '200px', height: "260px"}} alt="" />
+                            <img src={`/images/${active === "first" ? 'torch_on.png': 'torch_off.png'}`} style={{ width: '220px', height: "260px"}} alt="" />
                         </div>
                         <div className="content">
                             <h3>Title goes here</h3>
@@ -23,7 +23,7 @@ function Roadmap() {
                     </div>
                     <div className={`map_holder ${active === "second" ? 'active' : ""}`} onMouseEnter={() => setActive('second')}>
                         <div className="triangle">
-                        <img src={`/images/${active === "second" ? 'torch_on.PNG': 'torch_off.PNG'}`} style={{ width: '200px', height: "260px"}} alt="" />
+                        <img src={`/images/${active === "second" ? 'torch_on.png': 'torch_off.png'}`} style={{ width: '220px', height: "260px"}} alt="" />
                         </div>
                         <div className="content">
                             <h3>Title goes here</h3>
@@ -32,12 +32,10 @@ function Roadmap() {
                                 two lines
                             </p>
                         </div>
-                        <div className="shadow">
-                        </div>
                     </div>
                     <div className={`map_holder ${active === "third" ? 'active' : ""}`} onMouseEnter={() => setActive('third')}>
                         <div className="triangle">
-                        <img src={`/images/${active === "third" ? 'torch_on.PNG': 'torch_off.PNG'}`} style={{ width: '200px', height: "260px"}} alt="" />
+                        <img src={`/images/${active === "third" ? 'torch_on.png': 'torch_off.png'}`} style={{ width: '220px', height: "260px"}} alt="" />
                         </div>
                         <div className="content">
                             <h3>Title goes here</h3>
