@@ -3,7 +3,7 @@ import "./Utilities.css"
 
 function Utilities() {
     return (
-        <div className="utilities-container">
+        <div className="utilities-container" id='utilities'>
             <h2 className="utilities-header">Utilities</h2>
             <div class="box">
                 <img src="/images/utilities_bg.png" alt="Utilities" />

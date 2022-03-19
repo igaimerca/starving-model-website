@@ -4,7 +4,7 @@ import "./Team.css";
 
 function Team() {
   return (
-    <div className='team'>
+    <div className='team' id='team'>
         <h2>Team</h2>
         <div className="members">
             <Person name="Dan Smith" image="/images/team/Dan.png" position="Lead Artist" />
