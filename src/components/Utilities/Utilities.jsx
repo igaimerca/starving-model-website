@@ -6,7 +6,7 @@ function Utilities() {
         <div className="utilities-container">
             <h2 className="utilities-header">Utilities</h2>
             <div class="box">
-                <img src="/images/utilities_bg.png" alt="Flying Kites" />
+                <img src="/images/utilities_bg.png" alt="Utilities" />
                 <div className="points text one">
                     <h3>Title goes here</h3>
                     <p>Details goes here in <br />two lines</p>
