@@ -6,7 +6,7 @@ function Utilities() {
         <div className="utilities-container">
             <h2 className="utilities-header">Utilities</h2>
              <div class="box">
-    	<img src="/examples/images/kites.jpg" alt="Flying Kites" />
+    	{/* <img src="/examples/images/kites.jpg" alt="Flying Kites" /> */}
         {/* <div class="text">
             <h1>Flying Kites</h1>
         </div> */}
