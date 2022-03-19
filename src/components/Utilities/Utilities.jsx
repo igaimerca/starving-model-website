@@ -4,14 +4,14 @@ import "./Utilities.css"
 function Utilities() {
     return (
         <div className="utilities-container">
+            <h2 className="utilities-header">Utilities</h2>
              <div class="box">
     	<img src="/examples/images/kites.jpg" alt="Flying Kites" />
-        <div class="text">
+        {/* <div class="text">
             <h1>Flying Kites</h1>
-        </div>
+        </div> */}
     </div>
             {/* <img src="/images/utilities_bg.png" alt="" className="utilities-img" />
-            <h2 className="utilities-header">Utilities</h2>
             <div className="points one">
                 <h3>Title goes here</h3>
                 <p>Details goes here in <br />two lines</p>
