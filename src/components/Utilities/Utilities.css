@@ -22,33 +22,30 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    height: 107px;
-    width: 215px;
     transform: scale(.6);
     display: flex;
     padding: 14px;
     align-items: flex-start;
     justify-content: unset;
     flex-direction: column;
-    position: absolute;
 }
 .points img {
     width: 120px;
 }
-.points.one {
-    left: 28.4%;
-    top: 42.7%;
+.text.one {
+    left: 17.3%;
+    top: 40.7%;
 }
-.points.two {
-    right: 31.4%;
-    top: 33.5%;
+.text.two {
+    right: 21.89%;
+    top: 31.3%;
 }
-.points.three {
-    left: 20.7%;
-    bottom: 16.7%;
+.text.three {
+    left: 6.4%;
+    bottom: 17.1%;
 }
-.points.four {
-    right: 21.7%;
+.text.four {
+    right: 7.7%;
     bottom: 18.1%;
 }
 
@@ -60,12 +57,10 @@
     position: absolute;
     z-index: 999;
     margin: 0 auto;
-    left: 0;
-    right: 0;        
     text-align: center;
-    top: 40%; /* Adjust this value to move the positioned div up and down */
-    background: rgba(0, 0, 0, 0.8);
     font-family: Arial,sans-serif;
     color: #fff;
-    width: 60%; /* Set the width of the positioned div */
+    height: 107px;
+    width: 215px;
+    transform: scale(.6);
 }
