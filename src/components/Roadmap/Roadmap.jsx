@@ -7,7 +7,7 @@ function Roadmap() {
         <div className="roadmap">
             <h3>Roadmap</h3>
             <div className="roadmap-flex">
-               </div>
+            </div>
         </div>
     )
 }
