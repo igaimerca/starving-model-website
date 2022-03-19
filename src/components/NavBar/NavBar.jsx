@@ -6,12 +6,12 @@ function NavBar() {
             <h1>Starving <br /> Models</h1>
             <div className="nav-items">
                 <ul className="nav-links">
-                <li>Project</li>
-                <li>Art</li>
-                <li>Charities</li>
-                <li>Utilities</li>
-                <li>Roadmap</li>
-                <li>Team</li>
+                    <li>Project</li>
+                    <li>Art</li>
+                    <li>Charities</li>
+                    <li>Utilities</li>
+                    <li>Roadmap</li>
+                    <li>Team</li>
                 </ul>
                 <ul className="nav-social-links">
                     <li><img src="/images/social/twitter.svg" alt="" /></li>
