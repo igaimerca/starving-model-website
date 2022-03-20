@@ -5,6 +5,7 @@ import About from './components/About/About';
 import Team from './components/Team/Team';
 import Utilities from './components/Utilities/Utilities';
 import Roadmap from './components/Roadmap/Roadmap';
+import ReactTypingEffect from 'react-typing-effect';
 
 function App() {
     const [count, setCount] = useState(0);
@@ -15,8 +16,16 @@ function App() {
                 <NavBar />
                 <div className="banner-text">
                     <h2>Starving Models</h2>
-                    <h2 className="sub-title">NFTs</h2>
-                    <p style={{ fontSize : "2em"}}>100+ NFTs Artistic Starving Models</p>
+
+                    <h2 className="sub-title">
+                        <ReactTypingEffect
+                        typingDelay={200}
+                        cursorRenderer={cursor => <></>}
+                            text={[" NFTs", "NFTs"]}
+                        />
+
+                    </h2>
+                    <p>100+ NFTs Artistic Starving Models</p>
                 </div>
             </header>
             <About />
