@@ -14,8 +14,8 @@
     padding: 2rem;
 }
 .about-wrapper img {
-  height: 420px;
-  width: 290px;
+    height: 340px;
+    width: 293px;
 }
 
 .about-wrapper h2 {
@@ -44,7 +44,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 13px;
+  font-size: 16px;
   margin: 1em 0;
 }
 
@@ -64,5 +64,5 @@
 
 .content p {
   line-height: 33px;
-  font-size: 24px;
+  font-size: 21.3px;
 }
