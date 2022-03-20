@@ -25,7 +25,7 @@ body {
   color: #fff;
   overflow-y: scroll;
   overflow-x: hidden;
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   background-image: url(/images/banner_bg.png);
   background-repeat: no-repeat;
