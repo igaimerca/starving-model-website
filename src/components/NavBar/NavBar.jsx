@@ -9,7 +9,7 @@ function NavBar() {
 
     return (
         <nav className={`${width <= 837 && showNavBar ? "mobile-navbar" : ""} navbar`}>
-            <h1>Starving <br /> Models</h1>
+            <h1>STARVING <br /> MODELS</h1>
             <div className={`${width <= 837 && showNavBar ? "mobile-nav-items" : ""} nav-items`}>
                 <ul className={`${width <= 837 ? "mobile-nav-links" : ""} nav-links`}>
                     <li>Project</li>

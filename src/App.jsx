@@ -15,7 +15,7 @@ function App() {
             <header>
                 <NavBar />
                 <div className="banner-text">
-                    <h2>Starving Models</h2>
+                    <h2 className="title">STARVING MODELS</h2>
 
                     <h2 className="sub-title">
                         <ReactTypingEffect
