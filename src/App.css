@@ -24,10 +24,10 @@ header {
   right: 20px;
 }
 .nav-items {
-    translate: .4s all ease;
+  translate: 0.4s all ease;
 }
 .mobile-navbar {
-    position: relative;
+  position: relative;
   width: 100%;
   flex-direction: column;
   background-color: #06041b;
@@ -55,5 +55,26 @@ header {
   }
   .about-wrapper {
     flex-wrap: wrap;
+    width: 90% !important;
+  }
+
+  .about-wrapper .image_wrapper {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .image_wrapper img {
+    width: 100% !important;
+    height: 400px !important;
+    align-items: center;
+  }
+  
+  .image_wrapper .details{
+    flex-basis: 100%;
+  }
+
+  .details img{
+    width: 20px !important;
+    height: 20px !important;
   }
 }

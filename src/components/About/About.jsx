@@ -16,7 +16,7 @@ function About() {
             <p className='colored-header'>0.875</p>
           </div>
           <div className="icons">
-            <img src="/images/diamond.png" alt="" />
+            <img src="/images/diamond.png" alt="" style={{ width: "20px"}} />
             <div className="likes">
               <img src="/images/heart.png" alt="" />
               <span style={{ marginLeft: ".5em"}}>100</span>
