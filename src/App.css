@@ -23,8 +23,11 @@ header {
   top: 20px;
   right: 20px;
 }
+.nav-items {
+    translate: .4s all ease;
+}
 .mobile-navbar {
-  position: relative;
+    position: relative;
   width: 100%;
   flex-direction: column;
   background-color: #06041b;
