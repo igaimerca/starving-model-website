@@ -5,7 +5,7 @@ function Roadmap() {
     const [active, setActive] = useState("second");
 
     return (
-        <div className="roadmap">
+        <div className="roadmap" id='roadmap'>
             <h3 className="title">Roadmap</h3>
             <div className="roadmap-flex">
                 <div className="container">
