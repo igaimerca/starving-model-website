@@ -6,7 +6,7 @@
   height: auto;
   background-image: url(/images/about_bg.png);
   background-size: cover;
-  padding: 0.1rem 1rem;
+  padding: 2vh 2vw;
   display: grid;
   grid-template-columns: 1fr 3fr;
   align-items: center;

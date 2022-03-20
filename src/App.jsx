@@ -16,7 +16,7 @@ function App() {
                 <div className="banner-text">
                     <h2>Starving Models</h2>
                     <h2 className="sub-title">NFTs</h2>
-                    <p>100+ NFTs Artistic Starving Models</p>
+                    <p style={{ fontSize : "2em"}}>100+ NFTs Artistic Starving Models</p>
                 </div>
             </header>
             <About />
