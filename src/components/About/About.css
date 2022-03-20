@@ -1,17 +1,17 @@
 .about-wrapper {
-  margin: auto;
-  width: 65%;
-  margin: 9rem auto;
-  border-radius: 46px;
-  height: auto;
-  background-image: url(/images/about_bg.png);
-  background-position: center;
-  background-size: cover;
-  padding: 2vh 2vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
+    margin: auto;
+    width: 65%;
+    margin: 18rem auto;
+    border-radius: 46px;
+    height: auto;
+    background-image: url(/images/about_bg.png);
+    background-position: center;
+    background-size: cover;
+    padding: 2vh 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
 }
 .about-wrapper img {
   height: 220px;
