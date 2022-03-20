@@ -35,6 +35,10 @@
 }
 .banner-text h2 {
     text-shadow: 0px 0px 4px #121111;
+    font-size: 3rem;
+}
+.banner-text p {
+    font-size: 1.3rem;
 }
 .banner-text .sub-title {
     text-shadow: 0px 0px 4px #121111;
