@@ -8,8 +8,8 @@
     position: relative;
 }
 .utilities-img {
-    transform: scale(1.4);
     pointer-events: none;
+    width: 100%;
 }
 .utilities-header {
     text-align: center;
