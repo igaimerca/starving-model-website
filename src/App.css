@@ -41,6 +41,7 @@ header {
 .mobile-nav-links li {
     margin: 0.3rem 0;
 }
+
 /* RESPONSIVENESS */
 @media screen and (max-width: 837px) {
   .nav-items {
