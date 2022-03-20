@@ -77,4 +77,8 @@ header {
     width: 20px !important;
     height: 20px !important;
   }
+  .utilities-img {
+    pointer-events: none;
+    width: 100%;
+}
 }
