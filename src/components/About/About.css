@@ -1,21 +1,21 @@
 .about-wrapper {
     margin: auto;
-    width: 65%;
+    width: 80%;
     margin: 18rem auto;
     border-radius: 46px;
     height: auto;
     background-image: url(/images/about_bg.png);
     background-position: center;
     background-size: cover;
-    padding: 2vh 2vw;
+    padding: 0px 2vw 0px 2vw !important;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 2rem;
 }
 .about-wrapper img {
-  height: 325px;
-  width: 270px;
+  height: 420px;
+  width: 290px;
 }
 
 .about-wrapper h2 {
@@ -29,7 +29,8 @@
 }
 
 .details {
-  width: 270px;
+  width: 290px;
+  padding: 0 .7em;
 }
 
 .details img {
@@ -56,7 +57,12 @@
   align-items: center;
 }
 
+
+.content h2{
+  font-size: 30px;
+}
+
 .content p {
   line-height: 33px;
-  font-size: 20px;
+  font-size: 24px;
 }
