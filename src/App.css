@@ -50,5 +50,8 @@ header {
   .menu-icon {
       display: inline-block;
   }
+  .about-wrapper {
+  flex-wrap: wrap;
+  }
     
 }
