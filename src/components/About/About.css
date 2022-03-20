@@ -1,21 +1,22 @@
 .about-wrapper {
   margin: auto;
-  width: 65%;
+  width: 80%;
   margin: 9rem auto;
   border-radius: 46px;
   height: auto;
   background-image: url(/images/about_bg.png);
   background-position: center;
   background-size: cover;
-  padding: 2vh 2vw;
+  padding: .5vh 2vw !important;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 2rem;
+  background-color: black;
 }
 .about-wrapper img {
-  height: 220px;
-  width: 180px;
+  height: 325px;
+  width: 270px;
 }
 
 .about-wrapper h2 {
@@ -29,7 +30,7 @@
 }
 
 .details {
-  width: 180px;
+  width: 270px;
 }
 
 .details img {
@@ -54,4 +55,9 @@
 .likes {
   display: flex;
   align-items: center;
+}
+
+.content p {
+  line-height: 33px;
+  font-size: 20px;
 }
