@@ -11,9 +11,10 @@
 }
 
 .roadmap .container {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .active .triangle {
