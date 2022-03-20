@@ -5,6 +5,7 @@
   border-radius: 46px;
   height: auto;
   background-image: url(/images/about_bg.png);
+  background-position: center;
   background-size: cover;
   padding: 2vh 2vw;
   display: flex;
