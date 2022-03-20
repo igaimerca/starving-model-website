@@ -5,3 +5,49 @@ header {
     background-position: center;
     background-size: cover;
 }
+.menu-icon {
+    height: 26px;
+    width: 24px;
+    display: none;
+}
+.mobile-nav-items {
+    display: flex !important;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    /* position: absolute;
+    top: 0; */
+    z-index: 9999;
+}
+.mobile-navbar .menu-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.mobile-navbar {
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+    background-color: #06041b;
+    z-index: 999;
+}
+.mobile-nav-links {
+    display: flex !important;
+    flex-direction: column;
+    margin-bottom: 1.3rem;
+}
+.mobile-nav-items .nav-social-links {
+    margin-bottom: 2rem;
+}
+.mobile-nav-links li {
+    margin: 0.3rem 0;
+}
+/* RESPONSIVENESS */
+@media screen and (max-width: 837px) {
+  .nav-items {
+      display: none;
+  } 
+  .menu-icon {
+      display: inline-block;
+  }
+    
+}
