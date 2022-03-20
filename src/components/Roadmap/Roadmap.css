@@ -1,5 +1,5 @@
 .roadmap {
-  width: 80%;
+  width: 90%;
   position: relative;
   margin: auto;
   padding: 1em 0;
@@ -11,13 +11,13 @@
 }
 
 .roadmap .container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
 }
 .map_holder {
-    margin-right: 1rem;
+  margin-right: 1rem;
 }
 
 .active .triangle {
@@ -25,9 +25,9 @@
 }
 
 .triangle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .content {
@@ -39,20 +39,20 @@
   text-align: center;
 }
 
-.active .content::after{
-    text-align: center;
-    position: absolute;
-    content: "";
-    bottom: -25px;
-    left: -10%;
-    right: 0;
-    z-index: -1;
-    height: 20%;
-    width: 120%;
-    transform: scale(0.9) translateZ(0);
-    filter: blur(15px);
-    background-image: radial-gradient(rgb(186 182 25), rgb(195 195 118));
-    border-radius: 50%;
+.active .content::after {
+  text-align: center;
+  position: absolute;
+  content: "";
+  bottom: -25px;
+  left: -10%;
+  right: 0;
+  z-index: -1;
+  height: 20%;
+  width: 120%;
+  transform: scale(0.9) translateZ(0);
+  filter: blur(15px);
+  background-image: radial-gradient(rgb(186 182 25), rgb(195 195 118));
+  border-radius: 50%;
 }
 
 .active .content {
