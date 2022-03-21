@@ -2,8 +2,8 @@ header {
     height: 100vh;
     background-image: url(/images/banner.png);
     /* background: #282253; */
-    -webkit-mask-image: linear-gradient(to top, transparent 4%, white 22%);
-    mask-image: linear-gradient(to top, transparent 5%, black 100%);
+    -webkit-mask-image: linear-gradient(black 71%, transparent);
+    mask-image: linear-gradient(black 71%, transparent);
     background-repeat: no-repeat;
     background-blend-mode: color-dodge;
 }
