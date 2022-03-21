@@ -12,12 +12,15 @@
 
 .roadmap .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
+  width: 75%;
+  justify-content: space-around;
+  margin: auto;
 }
 .map_holder {
-  margin-right: 4rem;
+  /* margin-right: 4rem; */
 }
 
 .active .triangle {
