@@ -1,22 +1,13 @@
 header {
     height: 100vh;
     background-image: url(/images/banner.png);
+    /* background: #282253; */
+    -webkit-mask-image: linear-gradient(to top, transparent 4%, white 22%);
+    mask-image: linear-gradient(to top, transparent 5%, black 100%);
     background-repeat: no-repeat;
     background-blend-mode: color-dodge;
-    /* box-shadow: -1px 0px 181px 37px #06041b; */
-    /* position: relative; */
 }
-/* header::after {
-    content: "";
-    background-image: url(/images/banner.png);
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;   
-  } */
+
 .menu-icon {
   height: 26px;
   width: 24px;
