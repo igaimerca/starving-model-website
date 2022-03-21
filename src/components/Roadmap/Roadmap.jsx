@@ -6,7 +6,7 @@ function Roadmap() {
 
     return (
         <div className="roadmap" id='roadmap'>
-            <h3 className="title">Roadmap</h3>
+            <h1 className="title">Roadmap</h1>
             <div className="container">
                 <div className={`map_holder ${active === "first" ? 'active' : ""}`} onMouseEnter={() => setActive('first')}>
                     <div className="triangle">
