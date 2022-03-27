@@ -1,21 +1,21 @@
 .about-wrapper {
-    margin: auto;
-    width: 80%;
-    border-radius: 46px;
-    height: auto;
-    background-image: url(/images/about_bg.png);
-    background-position: center;
-    background-size: cover;
-    padding: 0px 2vw 0px 2vw !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-    margin-top: 4rem;
+  margin: auto;
+  width: 78%;
+  border-radius: 46px;
+  height: auto;
+  background-image: url(/images/about_bg.png);
+  background-position: center;
+  background-size: cover;
+  padding: 34px 2vw 5px 2vw !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  margin-top: 4rem;
 }
 .about-wrapper img {
-    height: 340px;
-    width: 293px;
+  height: 290px;
+  width: 245px;
 }
 
 .about-wrapper h2 {
@@ -26,11 +26,13 @@
   background: transparent;
   color: #fff;
   text-align: left;
+  margin-left: 1em;
+  padding-top:0 ;
 }
 
 .details {
-  width: 290px;
-  padding: 0 .7em;
+  width: 250px;
+  padding: 0 0.7em;
 }
 
 .details img {
@@ -57,12 +59,11 @@
   align-items: center;
 }
 
-
-.content h2{
+.content h2 {
   font-size: 30px;
 }
 
 .content p {
   line-height: 33px;
-  font-size: 16.3px;
+  font-size: 14px;
 }
